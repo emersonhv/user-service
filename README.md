@@ -1,43 +1,47 @@
-# GEOPORTAL Planicies de Inundación REST API (BACKEND)
+# **User Service**
 
-## Tecnologias
+El **User Service** es un microservicio encargado de la gestión de usuarios en una red social. Proporciona funcionalidades para el registro, autenticación y obtención de perfiles de usuarios.
 
-1. Node.js
-2. Express
-3. Sequelize
-4. Typescript
-5. Docker
-6. Nginx
-7. Redis
-8. PostgreSQL
-9. JWT
+---
 
-## Desplegar contenedores
+## **Tecnologías Utilizadas**
 
-#### 1. Verificar variables de entorno
-#### 2. Ubicarse en dirección root del proyecto
-#### 3. Ejecutar comando docker build
-#### `docker-compose build`
-#### 3. Ejecutar comando docker up
-#### `docker-compose up -d`
+- **Backend:**
+  - Node.js
+  - Express
+  - TypeScript
+  - Prisma ORM
+  - PostgreSQL
+  - JWT (JSON Web Tokens) para autenticación
+  - Swagger para documentación de la API
 
-## Available Scripts
+- **Herramientas:**
+  - Docker
+  - Docker Compose
 
-In the project directory, you can run:
+---
 
-### `npm run dev`
+## **Requisitos Previos**
 
-Runs the app in the development mode.\
-Open [http://localhost:3320](http://localhost:3320) to view it in your browser.
+Antes de ejecutar el microservicio, asegúrate de tener instalado lo siguiente:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Node.js](https://nodejs.org/) (v16 o superior)
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+- [NMP](https://npm.com/) 
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **Configuración del Proyecto**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. **Clonar el Repositorio**
+
+Clona el repositorio del proyecto:
+
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio/user-service
+
+
+
 
