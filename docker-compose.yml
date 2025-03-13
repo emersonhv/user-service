@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  user-db:
+    image: postgis/postgis:16-3.4-alpine
+    environment:
+      POSTGRES_USER: user_service
+      POSTGRES_PASSWORD: usuarios2025
+      POSTGRES_DB: db-user
+    ports:
+      - "5432:5432"
+    volumes:
+      - user-data:/var/lib/postgresql/data
+
+  user-service:
+    build: ./
+    ports:
+      - "3001:3000"
+    environment:
+      DATABASE_URL: "postgres://user_service:usuarios2025@user-db:5432/db-user"
+      JWT_SEED: "b26696e34d0b9b2ec61a89a79e17c03faf736843604b911fefad097a99d29fc6"
+    depends_on:
+      - user-db
+    command: >
+      sh -c "npx prisma migrate dev --name init && yarn start"
+
+volumes:
+  user-data:
+  post-data:
