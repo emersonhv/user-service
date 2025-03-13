@@ -68,7 +68,7 @@ Esto iniciará los contenedores de PostgreSQL y los microservicios.
 Dentro del microservicio se ejecutan automaticamente las migraciones y seeder:
 
 ### 5️⃣ Acceder a los Endpoints
-- **User Service**: `http://localhost:3000/api/users`
+- **User Service**: `http://localhost:3001/api/users`
 
 ## 📜 API Endpoints
 
@@ -85,7 +85,7 @@ npm test
 
 ## 📄 Documentación
 La documentación de la API está disponible en **Swagger** en:
-- `http://localhost:3000/api-docs` (user-service)
+- `http://localhost:3001/api-docs` (user-service)
 
 ## 🔥 Contribuciones
 Las contribuciones son bienvenidas. Crea un **fork** del repositorio, genera una **branch** y abre un **pull request**. 🚀

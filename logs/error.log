@@ -192,3 +192,23 @@
 2025-03-13 06:13:49:1349 error: Email is required
 2025-03-13 06:13:49:1349 error: User not found
 2025-03-13 06:13:49:1349 error: User not found
+2025-03-13 08:20:48:2048 error: User not found
+2025-03-13 08:20:48:2048 error: User not found
+2025-03-13 08:20:48:2048 error: All fields are required
+2025-03-13 08:20:48:2048 error: All fields are required
+2025-03-13 08:20:48:2048 error: User whit email 'john.doe@example.com' already exists
+2025-03-13 08:20:48:2048 error: User whit email 'john.doe@example.com' already exists
+2025-03-13 08:20:48:2048 error: Email is required
+2025-03-13 08:20:48:2048 error: Email is required
+2025-03-13 08:20:48:2048 error: User not found
+2025-03-13 08:20:48:2048 error: User not found
+2025-03-13 08:43:02:432 error: User not found
+2025-03-13 08:43:02:432 error: User not found
+2025-03-13 08:43:02:432 error: All fields are required
+2025-03-13 08:43:02:432 error: All fields are required
+2025-03-13 08:43:02:432 error: User whit email 'john.doe@example.com' already exists
+2025-03-13 08:43:02:432 error: User whit email 'john.doe@example.com' already exists
+2025-03-13 08:43:02:432 error: Email is required
+2025-03-13 08:43:02:432 error: Email is required
+2025-03-13 08:43:02:432 error: User not found
+2025-03-13 08:43:02:432 error: User not found
